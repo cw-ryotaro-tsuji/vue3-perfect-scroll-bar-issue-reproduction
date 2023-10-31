@@ -1,16 +1,15 @@
-<script setup>
-import PerfectScrollbar from "@/components/PerfectScrollbar.vue";
-</script>
-
 <template>
-  <PerfectScrollbar>
+  <NuxtScrollbar class="box">
     <slot></slot>
-  </PerfectScrollbar>
+  </NuxtScrollbar>
 </template>
 
 <style>
 html {
   background-color: grey;
   overflow: hidden;
+}
+.box {
+  height: 100vh;
 }
 </style>

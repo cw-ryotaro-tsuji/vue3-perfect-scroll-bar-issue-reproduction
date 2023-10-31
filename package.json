@@ -16,6 +16,6 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "vue3-perfect-scrollbar": "^1.6.1"
+    "@davestewart/nuxt-scrollbar": "^1.0.0"
   }
 }
